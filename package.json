@@ -2,6 +2,7 @@
   "name": "yarn-workface",
   "version": "0.0.0",
   "private": true,
+  "workspaces": ["packages/*"],
   "description": "Small description for yarn-workface goes here",
   "repository": "",
   "license": "MIT",
@@ -44,15 +45,10 @@
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
-    "moment": "^2.24.0",
-    "qunit-dom": "^0.8.0"
+    "qunit-dom": "^0.8.0",
+    "tomorrow": "*"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
-  },
-  "ember-addon": {
-    "paths": [
-      "lib/tomorrow"
-    ]
   }
 }
