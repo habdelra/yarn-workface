@@ -1,7 +1,8 @@
 # yarn-workface
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+![Yarn Work Face, literally](https://user-images.githubusercontent.com/61075/53701188-81168100-3dc8-11e9-8a81-d793a8f13cd6.png)
+
+This repo is part of the 2019 EmberConf talk, "How I Learned to Stop Worrying and Love the Mono Repo". This repo demonstrates how to convert an Ember app that uses an in-repo addon to a mono repo using yarn workspaces with addons that are fully-formed. I have created a git tag `in-repo-addons` that is an Ember app with a versy simple in-repo addon, and a git tag `mono-repo` in which I convereted the Ember app into a mono repo that uses yarn workspaces and a fully formed version of the in-repo addon.
 
 ## Prerequisites
 
